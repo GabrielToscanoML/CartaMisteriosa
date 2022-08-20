@@ -7,11 +7,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Carta Misteriosa</title>
 </head>
+<header>
+  <h1>Projeto Carta Misteriosa!</h1>
+</header>
 <body>
-  <input type="text" id="carta-texto">
+  <section id="input-botao" >
+    <input type="text" id="carta-texto" placeholder="Digite sua carta!" >
+    <button id="criar-carta">Criar</button>
+  </section>
+
   <p id="carta-gerada" ></p>
-  <button id="criar-carta">Criar</button>
-  <p id="carta-contador"></p>
+  
+  <section id="contador" >
+    <label id="label-contador" for=""></label>
+    <p id="carta-contador"></p>
+  </section>
   <script src="script.js"></script>
 </body>
 </html>

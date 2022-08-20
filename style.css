@@ -49,3 +49,61 @@
 .skewright {
   transform: matrix(1, 0, -0.176327, 1, 0, 0);
 }
+
+/* Estilizando a página */
+
+header {
+  display: flex;
+}
+
+h1 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#input-botao {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  /* border: 2px solid black; */
+}
+
+#carta-texto{
+  width: 300px;
+  height: 25px;
+  border-radius: 5px;
+}
+
+#criar-carta {
+  font-size: 20px;
+  background-color: rgb(26, 99, 194);
+  color: white;
+  margin-left: 10px;
+  height: 33px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+#contador {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+#carta-contador {
+  margin-left: 10px;
+  color: green;
+}
+
+#carta-gerada {
+  margin-top: 50px;
+}

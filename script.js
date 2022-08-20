@@ -70,6 +70,7 @@ function recebeInput() {
   let input;
   if (verificaInput()) {
     input = getInput.value.split(' ');
+    document.getElementById('label-contador').innerText = 'Quantidade de palavras: ';
     getParagrafoContador.innerText = input.length;
     for (let index = 0; index < input.length; index += 1) {
       criaPalavra(input[index]);
