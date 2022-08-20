@@ -1,13 +1,12 @@
 const getInput = document.getElementById('carta-texto');
 const btnCriaCarta = document.getElementById('criar-carta');
 const getParagrafo = document.getElementById('carta-gerada');
-
 const estilo = ['newspaper', 'magazine1', 'magazine2'];
 const tamanho = ['medium', 'big', 'reallybig'];
 const rotacao = ['rotateleft', 'rotateright'];
 const inclinacao = ['skewleft', 'skewright'];
-
 let getRandomNumber;
+const getParagrafoContador = document.getElementById('carta-contador');
 
 function verificaInput() {
   if (getInput.value === ' ' || getInput.value === '') {
@@ -71,6 +70,7 @@ function recebeInput() {
   let input;
   if (verificaInput()) {
     input = getInput.value.split(' ');
+    getParagrafoContador.innerText = input.length;
     for (let index = 0; index < input.length; index += 1) {
       criaPalavra(input[index]);
     }
