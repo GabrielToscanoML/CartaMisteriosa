@@ -56,6 +56,13 @@ function estilizaSpan() {
 
 function criaPalavra(palavra) {
   const createSpan = document.createElement('span');
+  createSpan.addEventListener('click', () => {
+    createSpan.className = '';
+    createSpan.classList.add(getEstilo());
+    createSpan.classList.add(getTamanho());
+    createSpan.classList.add(getRotacao());
+    createSpan.classList.add(getInclinacao());
+  });
   createSpan.innerText = `${palavra}`;
   getParagrafo.appendChild(createSpan);
 }
