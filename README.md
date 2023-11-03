@@ -1,7 +1,8 @@
 <!-- ABOUT THE PROJECT -->
 ## Sobre o Projeto
 
-![image](https://github.com/GabrielToscanoML/PixelsArt/assets/68169956/2162f159-17f7-40f1-9f4c-fb7360f31f92)
+![image](https://github.com/GabrielToscanoML/CartaMisteriosa/assets/68169956/2c6975e4-4d82-4fbf-8238-9035901b3b1a)
+
 
 ### Desenvolvimento
 
