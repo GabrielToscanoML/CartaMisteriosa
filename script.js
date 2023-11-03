@@ -77,6 +77,7 @@ function recebeInput() {
     }
     estilizaSpan();
   }
+  getInput.value = '';
 }
 
 btnCriaCarta.addEventListener('click', recebeInput);
